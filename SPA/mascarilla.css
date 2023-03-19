@@ -1,0 +1,138 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+}
+
+h1{
+    padding-top: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    min-width: 100vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(0,5,51,0,9),rgba(0,8,51,0,9));
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(15, 15, 15, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(100%);
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #ffff;
+}
+
+::placeholder{
+    color: #ffff;
+}
+
+.search-bar button img{
+    width: 25px;
+
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+}
+
+#tarjeta{
+    width: 80%;
+    height: 400px;
+    outline: none;
+}
+
+p, a{
+    padding: 18px;
+    color: white;
+}
+
+.palabraResal p{
+    width: 150px;
+    background-color: rgba(52, 141, 111, 0.822);
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.user_id{ font-size: 20px;}
+
+.contLeft{
+    float: left;
+    background-color: rgba(3, 97, 44, 0.651);
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-end-start-radius: 15px;
+}
+
+
+.contRight{
+    float: left;
+    /* background-color:#58629b; */
+    background-image: linear-gradient(rgb(8, 78, 136), rgb(15, 120, 206));
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.contRight p{
+    font-size: 30px
+}
+
+.img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.name{
+    font-size: 40px;
+}
+
+.cajas1{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.cajas1 p {
+    font-size: 30px;
+}
+
+.cajas2{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#link{
+    font-size: 30px;
+}
